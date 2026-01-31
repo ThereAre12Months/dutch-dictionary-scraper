@@ -10,7 +10,7 @@ cd dutch-dictionary-scraper
 
 python3 -m venv .venv
 source .venv/bin/activate
-pip3 install -r requirements.txt --update
+pip3 install -r requirements.txt --upgrade
 deactivate
 ```
 
