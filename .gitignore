@@ -1,2 +1,3 @@
 .venv/
-words/*
+words/*.json
+words/*.txt
