@@ -40,7 +40,8 @@ If you wanted to list all words starting with 'am' you would do it the following
 import json
 
 with open("words/a.json", "r") as f:
-	words = json.load(f)["m"]
+	words = json.load(f)["m"].values()
 
-print(list(words.values()))
+for word in words:
+	print(word)
 ```
